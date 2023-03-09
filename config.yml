@@ -1,0 +1,18 @@
+server:
+  port: 8445
+  https_cert_file : "/home/farsana/ssl/nginx.crt"
+  https_key_file : "/home/farsana/ssl/nginx.key"
+  
+database:
+        dbuser: user1
+        dbpass: password1
+        dbname: blog_system
+        dbhost: 127.0.0.1
+        dbport: 5432
+        
+listen:
+        port: "8080" 
+        address: "localhost" 
+
+
+
